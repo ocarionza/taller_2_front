@@ -8,3 +8,10 @@ Jose Brayan Ocampo Castaño
 
 2. Muestra en consola "undefined" no cumple la propiedad map
 
+==================================================================================================================================================================
+
+3. No se esta usando el "use client" antes de las importaciones
+
+- se rompe el programa ya que no cuenta con un manejo de excepciones.
+
+==================================================================================================================================================================
