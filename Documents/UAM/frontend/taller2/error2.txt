@@ -15,3 +15,23 @@ Jose Brayan Ocampo Castaño
 - se rompe el programa ya que no cuenta con un manejo de excepciones.
 
 ==================================================================================================================================================================
+
+SOLUCIÓN B
+
+1. Permite incorporar llamados a API o logica de hocs en un vista
+
+2. Componente padre general que nos ayuda a rederizar pages por medio de {children}
+
+3. Se hace por medio de los directorios, los directorios definen las rutas en next y se le puede poner una ruta dinamica usando corchetes {}: 
+EJ: directorio -products subdirectorio que toma como param --{id}
+
+4. Se usa una libreria llamada zod
+
+5. Asocia campos con sus validaciones, y se le pueden mandar mensajes que se pueden mostrar cuando no se cumple una validacion.
+
+6. Utilizar el middleware con rutas protegidas que solo son accesibles si se cumple una condicion: Ej: usuario con rol admin que puede añadir productos
+
+7. High order component Normalmente son archivos de codigo que tienen logica de negocio que se llama en las vistas, tambien se pueden usar como contexto:
+Ej: authContext para realizar todas las acciones de login y registro
+
+==================================================================================================================================================================
